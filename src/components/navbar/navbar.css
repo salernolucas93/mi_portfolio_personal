@@ -1,0 +1,36 @@
+/* --- Navbar --- */
+.navbar__items{
+    display: flex;
+}
+.navbar__active{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #354358;
+    border-bottom: 4px solid #302b63;
+}
+
+.navbar__item{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #354358;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.navbar__item:hover{
+    background: -webkit-linear-gradient(#0f0c29, #302b63, #24243e);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+@media(max-width: 600px){
+    .navbar__active{
+        font-size: 1.5rem;
+    }
+
+    .navbar__item{
+        font-size: 1rem;
+    }
+}

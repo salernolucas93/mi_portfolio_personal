@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+
+body{
+    background-image: linear-gradient(to right bottom, #0f0c29, #302b63, #24243e);
+    background-attachment: fixed;
+    color: #354538;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(to right bottom, #0f0c29, #302b63, #24243e);
+}
+
+a{
+    text-decoration: none;
+    color: #354548;
+}
+
+a:hover{
+    text-decoration: none;
+    color:#000;
+}
+
+.app__container{
+    padding-top: 50px;
+}
+
+.app__row{
+    height: 86vh;
+}
+
+.app__main-content{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 25px 15px;
+    box-shadow: 0 0 10px black;
+}
+
+@media(max-width:991px){
+    .app__main-content{
+        margin: 30px 0;
+    }
+}
+
+@media (max-width: 600px){
+    .app__main-content{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
